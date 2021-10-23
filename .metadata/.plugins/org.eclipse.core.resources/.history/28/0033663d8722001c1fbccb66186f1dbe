@@ -1,0 +1,29 @@
+package packAnexo;
+
+import java.util.Scanner;
+
+public class Actividad5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int dia_act, mes_act, año_act;
+		int dia_nac, mes_nac, año_nac;
+		boolean mayorEdad;
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Introduce el dia actual: ");
+		dia_act = teclado.nextInt();
+		System.out.println("Introduce el mes actual: ");
+		mes_act = teclado.nextInt();
+		System.out.println("Introduce el año actual: ");
+		año_act = teclado.nextInt();
+		System.out.println("Introduce el dia de nacimiento: ");
+		dia_nac = teclado.nextInt();
+		System.out.println("Introduce el mes de nacimiento: ");
+		mes_nac = teclado.nextInt();
+		System.out.println("Introduce el año de nacimiento: ");
+		año_nac = teclado.nextInt();
+		mayorEdad = dia_act - mes_act - año_act - dia_nac - mes_nac - año_nac >=18;
+		System.out.println("¿Eres mayor de edad?: " +mayorEdad);
+	}
+
+}

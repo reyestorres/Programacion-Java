@@ -1,0 +1,34 @@
+package actividadesPropuestas;
+
+import java.util.Scanner;
+
+public class Actividad2Eva {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/* Leer un numero entre 1 y 10 y mostrar su tabla de multiplicar 
+		 * Con:
+		 * 	do { } while(); 
+		 * 	while() { }; 
+		 */
+		Scanner teclado = new Scanner(System.in);
+		int num;
+		int tabla=0;
+		int num2=0;
+		do {
+			System.out.println("Introduce un numero del 1 al 10: ");
+				num = teclado.nextInt();
+		} while(num < 1 || num > 10 );
+				while(num2 <=10) {
+					tabla=num*num2;
+					num2++;
+					System.out.println("La tabla de multiplicar de " +num +" es: ");
+					System.out.println(tabla);
+					
+					
+				}
+				
+	} 
+
+}
+

@@ -1,0 +1,26 @@
+package pack;
+
+import java.util.Scanner;
+
+public class Actividad2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//meter un numero por teclado que no sea multiplo de 7 y que me de el multiplo de 7
+		//si meto el numero 13 el resultado que me debe dar es 1 porque luego el siguiente es 14 multiplo de 7
+		//utilizar el operador modulo
+		int num;
+		int num2;
+		int suma;
+		Scanner teclado = new Scanner (System.in);
+		System.out.println("Introduce un numero: ");
+		num = teclado.nextInt();
+		System.out.println("Introduce otro numero a sumar: ");
+		num2 = teclado.nextInt();
+		suma = num + num2;
+		System.out.println("La suma es: " + suma);
+		System.out.println("Es multiplo de 7: ");
+		 
+	}
+
+}

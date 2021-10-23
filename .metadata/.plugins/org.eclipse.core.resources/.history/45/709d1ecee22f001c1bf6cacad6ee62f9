@@ -1,0 +1,11 @@
+package actividadesPropuestas;
+
+public class Actividad3_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//pide al usuario un numero y muestra en pantalla la salida.
+		
+	}
+
+}

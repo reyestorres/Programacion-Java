@@ -1,0 +1,23 @@
+package pack;
+
+public class Actividad1_5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Escribir un programa que compruebe el rango de valores -32 768 y 32 767, con el tipo short
+		//el valor siguiente es el máximo al minimo
+		short num;
+		num = 32767;
+		System.out.println("El valor máximo es: "+num);
+		num++;
+		System.out.println("El valor minimo es:" +num );
+		
+		
+		
+		
+	
+		
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package pack;
+
+public class Actividad1_4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Escribir una aplicación que pida el año actual y el de nacimiento del usuario.
+		//Debe calcular su edad, suponiendo que en el año en curso el usuarioya ha cumplido años.
+	}
+
+}

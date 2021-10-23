@@ -1,0 +1,13 @@
+package pack;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Pedir al usuario su edad y mostrar la que tendrá el próximo año
+				int num2;
+				System.out.println("Dime tu edad: ");
+				
+	}
+
+}

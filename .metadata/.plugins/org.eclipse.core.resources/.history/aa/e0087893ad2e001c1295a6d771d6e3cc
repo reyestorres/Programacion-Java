@@ -1,0 +1,14 @@
+package actividadesPropuestas;
+
+public class Actividad1Eva {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/** Pedir un numero por teclado y mostrar la lista de todos los multiplos de 7 
+		 * menores que dicho numero.
+		 * num > 7
+		 * do { } while(); 
+		 * while() { }; **/
+	}
+
+}

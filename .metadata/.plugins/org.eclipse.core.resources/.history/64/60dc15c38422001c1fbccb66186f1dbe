@@ -1,0 +1,12 @@
+package packAnexo;
+
+public class Actividad5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int dia_act, mes_act, año_act;
+		int dia_nac, mes_nac, año_nac;
+		
+	}
+
+}

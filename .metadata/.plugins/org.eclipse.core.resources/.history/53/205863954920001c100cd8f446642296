@@ -1,0 +1,12 @@
+package pack;
+
+public class Actividad4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//crea un programa que pida la base y la altura de un triangulo y muestre su area
+		//area del triangulo = base * altura / 2
+		
+	}
+
+}
